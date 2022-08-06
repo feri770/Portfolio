@@ -1,0 +1,154 @@
+
+
+@font-face {
+    font-family: Poppins;   
+    src: url(/poppins/Poppins-Regular.otf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(/lato/Lato-Regular.ttf);
+}
+
+body{
+    margin: 0;
+    /* font-family: 'Poppins'; */
+}
+
+
+
+.section-one {
+    position: relative;
+
+
+}
+
+
+
+.blue-box{
+    position: relative;
+    background-color: #2ECEF2;
+    width:40vw;
+    height:99vh;
+   
+    margin-left: 59.5vw;
+    border: black 1px solid;
+    z-index: -2;
+}
+
+.tiny-name{
+    position: absolute;
+    width: 103px;
+    height: 21px;
+    left: 79px;
+    top: 29px;
+
+   
+
+
+    color: #118CD9;
+
+    /* border: 1px solid #000000; */
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.major-name{
+    position: absolute;
+    width: 385px;
+    height: 166px;
+    left: 212px;
+    top: 201px;
+
+    font-family: 'Poppins';
+    font-size: 35px;
+    /* line-height: 68px; */
+}
+
+.small-major-name{
+    position: absolute;
+    width: 385px;
+    height: 86px;
+    left: 212px;
+    top: 401px;
+   
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667883;
+}
+
+.major-name-rect{
+    position: absolute;
+    width: 268px;
+    height: 23px;
+    left: -3px;
+    top: 136px;
+    z-index: -1;
+
+    background: rgba(172, 242, 209, 0.56);
+
+}
+
+.logo-container{
+    width: 39px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+   
+    /* margin-left: -366px; */
+    left: 103px;
+    top: 232px;
+   
+}
+
+.scroll-down{
+    position: absolute;
+    top: 535px;
+    left: 211px;
+}
+
+.contact-me{
+    position: relative;
+    /* border: 1px black solid; */
+    height: 100vh;
+    
+}
+
+.contact-me-background{
+  /* border: 1px black solid; */
+  position: absolute;
+  left: 319px;
+  top: 173px;
+
+  
+  
+ 
+}
+
+.side-contact{
+    position: absolute;
+    left: 743px;
+    top: 205px;
+    z-index: -1;
+
+}
+
+.contact-me-text{
+    position: absolute;
+    left: 335px;
+    top: 210px;
+
+}
+
+.contact-me-email{
+    position: absolute;
+    left: 338px;
+    top: 322px;
+    font-size: 50px;
+
+}
+
