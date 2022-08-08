@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: Poppins;   
-    src: url(/poppins/Poppins-Regular.otf);
+    src: url(./poppins/Poppins-Regular.otf);
 }
 
 @font-face {
     font-family: Lato;
-    src: url(/lato/Lato-Regular.ttf);
+    src: url(./lato/Lato-Regular.ttf);
 }
 
 body{
